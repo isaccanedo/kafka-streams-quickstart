@@ -1,11 +1,11 @@
-Quarkus Kafka Streams Quickstart
+Início rápido do Quarkus Kafka Streams
 ========================
 
-This project illustrates how you can build [Apache Kafka Streams](https://kafka.apache.org/documentation/streams) applications using Quarkus.
+Este projeto ilustra como você pode criar aplicativos [Apache Kafka Streams](https://kafka.apache.org/documentation/streams) usando o Quarkus.
 
-## Anatomy
+## Anatomia
 
-This quickstart is made up of the following parts:
+Este início rápido é composto das seguintes partes:
 
 * Apache Kafka and ZooKeeper
 * _producer_, a Quarkus application that publishes some test data on two Kafka topics: `weather-stations` and `temperature-values`
