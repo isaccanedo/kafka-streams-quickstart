@@ -7,16 +7,16 @@ Este projeto ilustra como você pode criar aplicativos [Apache Kafka Streams](ht
 
 Este início rápido é composto das seguintes partes:
 
-* Apache Kafka and ZooKeeper
-* _producer_, a Quarkus application that publishes some test data on two Kafka topics: `weather-stations` and `temperature-values`
-* _aggregator_, a Quarkus application processing the two topics, using the Kafka Streams API
+* Apache Kafka e ZooKeeper
+* _producer_, um aplicativo Quarkus que publica alguns dados de teste em dois tópicos Kafka: `estações meteorológicas` e `valores de temperatura`
+* _aggregator_, um aplicativo Quarkus processando os dois tópicos, usando a API Kafka Streams
 
-The _aggregator_ application is the interesting piece; it
+O aplicativo _aggregator_ é a peça interessante; isto
 
-* runs a KStreams pipeline, that joins the two topics (on the weather station id),
-groups the values by weather station and emits the minimum/maximum temperature value per station to the `temperatures-aggregated` topic
-* exposes an HTTP endpoint for getting the current minimum/maximum values
-for a given station using Kafka Streams interactive queries.
+* executa um pipeline KStreams, que une os dois tópicos (no id da estação meteorológica),
+agrupa os valores por estação meteorológica e emite o valor mínimo/máximo de temperatura por estação para o tópico `temperaturas agregadas`
+* expõe um endpoint HTTP para obter os valores mínimos/máximos atuais
+para uma determinada estação usando consultas interativas do Kafka Streams.
 
 ## Building
 
