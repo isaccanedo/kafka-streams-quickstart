@@ -18,9 +18,9 @@ agrupa os valores por estação meteorológica e emite o valor mínimo/máximo d
 * expõe um endpoint HTTP para obter os valores mínimos/máximos atuais
 para uma determinada estação usando consultas interativas do Kafka Streams.
 
-## Building
+## Construindo
 
-To build the _producer_ and _aggregator_ applications, run
+Para construir os aplicativos _produtor_ e _aggregator_, execute
 
 ```bash
 mvn clean install
