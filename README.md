@@ -35,7 +35,7 @@ Start all containers by running:
 docker-compose up -d --build
 ```
 
-Now run an instance of the _debezium/tooling_ image which comes with several useful tools such as _kafkacat_ and _httpie_:
+Agora execute uma instância da imagem _debezium/tooling_ que vem com várias ferramentas úteis como _kafkacat_ e _httpie_:
 
 ```bash
 docker run --tty --rm -i --network ks debezium/tooling:1.1
