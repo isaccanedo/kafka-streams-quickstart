@@ -26,10 +26,10 @@ Para construir os aplicativos _produtor_ e _aggregator_, execute
 mvn clean install
 ```
 
-## Running
+## Executando
 
-A Docker Compose file is provided for running all the components.
-Start all containers by running:
+Um arquivo Docker Compose é fornecido para executar todos os componentes.
+Inicie todos os contêineres executando:
 
 ```bash
 docker-compose up -d --build
