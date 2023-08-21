@@ -41,7 +41,7 @@ Agora execute uma instância da imagem _debezium/tooling_ que vem com várias fe
 docker run --tty --rm -i --network ks debezium/tooling:1.1
 ```
 
-In the tooling container, run _kafkacat_ to examine the results of the streaming pipeline:
+No contêiner de ferramentas, execute _kafkacat_ para examinar os resultados do pipeline de streaming:
 
 ```bash
 kafkacat -b kafka:9092 -C -o beginning -q -t temperatures-aggregated
