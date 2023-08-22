@@ -47,8 +47,8 @@ No contêiner de ferramentas, execute _kafkacat_ para examinar os resultados do 
 kafkacat -b kafka:9092 -C -o beginning -q -t temperatures-aggregated
 ```
 
-You also can obtain the current aggregated state for a given weather station using _httpie_,
-which will invoke an Kafka Streams interactive query for that value:
+Você também pode obter o estado agregado atual para uma determinada estação meteorológica usando _httpie_,
+que invocará uma consulta interativa do Kafka Streams para esse valor:
 
 ```bash
 http aggregator:8080/weather-stations/data/1
