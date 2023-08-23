@@ -54,10 +54,10 @@ que invocará uma consulta interativa do Kafka Streams para esse valor:
 http aggregator:8080/weather-stations/data/1
 ```
 
-## Scaling
+## Dimensionamento
 
-Kafka Streams pipelines can be scaled out, i.e. the load can be distributed amongst multiple application instances running the same pipeline.
-To try this out, scale the _aggregator_ service to three nodes:
+Os pipelines do Kafka Streams podem ser ampliados, ou seja, a carga pode ser distribuída entre várias instâncias de aplicativos executando o mesmo pipeline.
+Para testar isso, dimensione o serviço _agregador_ para três nós:
 
 ```bash
 docker-compose up -d --scale aggregator=3
