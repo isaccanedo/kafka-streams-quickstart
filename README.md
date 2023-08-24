@@ -63,13 +63,13 @@ Para testar isso, dimensione o serviço _agregador_ para três nós:
 docker-compose up -d --scale aggregator=3
 ```
 
-This will spin up two more instances of this service.
-The state store that materializes the current state of the streaming pipeline
-(which we queried before using the interactive query),
-is now distributed amongst the three nodes.
-I.e. when invoking the REST API on any of the three instances, it might either be
-that the aggregation for the requested weather station id is stored locally on the node receiving the query,
-or it could be stored on one of the other two nodes.
+Isso irá gerar mais duas instâncias deste serviço.
+O armazenamento de estado que materializa o estado atual do pipeline de streaming
+(que consultamos antes de usar a consulta interativa),
+agora está distribuído entre os três nós.
+ou seja ao invocar a API REST em qualquer uma das três instâncias, pode ser
+que a agregação para o ID da estação meteorológica solicitada seja armazenada localmente no nó que recebe a consulta,
+ou pode ser armazenado em um dos outros dois nós.
 
 As the load balancer of Docker Compose will distribute requests to the _aggregator_ service in a round-robin fashion,
 we'll invoke the actual nodes directly.
