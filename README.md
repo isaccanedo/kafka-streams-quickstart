@@ -71,9 +71,9 @@ ou seja ao invocar a API REST em qualquer uma das três instâncias, pode ser
 que a agregação para o ID da estação meteorológica solicitada seja armazenada localmente no nó que recebe a consulta,
 ou pode ser armazenado em um dos outros dois nós.
 
-As the load balancer of Docker Compose will distribute requests to the _aggregator_ service in a round-robin fashion,
-we'll invoke the actual nodes directly.
-The application exposes information about all the host names via REST:
+Como o balanceador de carga do Docker Compose distribuirá solicitações para o serviço _agregador_ em um estilo round-robin,
+invocaremos os nós reais diretamente.
+A aplicação expõe informações sobre todos os nomes de host via REST:
 
 ```bash
 http aggregator:8080/weather-stations/meta-data
