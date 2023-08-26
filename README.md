@@ -86,7 +86,7 @@ Retrieve the data from one of the three hosts shown in the response
 http cf143d359acc:8080/weather-stations/data/1
 ```
 
-If that node holds the data for key "1", you'll get a response like this:
+Se esse nó contiver os dados da chave "1", você receberá uma resposta como esta:
 
 ```
 HTTP/1.1 200 OK
