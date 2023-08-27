@@ -105,7 +105,7 @@ Date: Tue, 11 Jun 2019 19:16:31 GMT
 }
 ```
 
-Otherwise, the service will send a redirect:
+Caso contrário, o serviço enviará um redirecionamento:
 
 ```
 HTTP/1.1 303 See Other
