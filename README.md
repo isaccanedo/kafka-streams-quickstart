@@ -79,8 +79,8 @@ A aplicação expõe informações sobre todos os nomes de host via REST:
 http aggregator:8080/weather-stations/meta-data
 ```
 
-Retrieve the data from one of the three hosts shown in the response
-(your actual host names will differ):
+Recupere os dados de um dos três hosts mostrados na resposta
+(seus nomes de host reais serão diferentes):
 
 ```bash
 http cf143d359acc:8080/weather-stations/data/1
