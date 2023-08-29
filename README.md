@@ -115,8 +115,7 @@ Date: Tue, 11 Jun 2019 19:17:51 GMT
 Location: http://72064bb97be9:8080/weather-stations/data/2
 ```
 
-You can have _httpie_ automatically follow the redirect by passing the `--follow` option:
-
+Você pode fazer com que _httpie_ siga automaticamente o redirecionamento passando a opção `--follow`:
 ```bash
 http --follow aggregator:8080/weather-stations/data/2
 ```
