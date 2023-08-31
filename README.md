@@ -149,7 +149,7 @@ Then create an environment variable named `QUARKUS_MODE` and with value set to "
 export QUARKUS_MODE=native
 ```
 
-Now start Docker Compose as described above.
+Agora inicie o Docker Compose conforme descrito acima.
 
 ## Running locally
 
