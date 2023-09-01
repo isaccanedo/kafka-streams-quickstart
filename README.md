@@ -134,7 +134,7 @@ The endpoint URL becomes:
 curl -L --insecure https://aggregator:8443/weather-stations/data/2
 ```
 
-## Running in native
+## Executando em nativo
 
 To run the _producer_ and _aggregator_ applications as native binaries via GraalVM,
 first run the Maven builds using the `native` profile:
