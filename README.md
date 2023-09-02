@@ -122,7 +122,7 @@ http --follow aggregator:8080/weather-stations/data/2
 
 ## TLS 
 
-In case HTTP is disabled via:
+Caso o HTTP esteja desativado por meio de:
 
 ```properties
 quarkus.http.insecure-requests=disabled
