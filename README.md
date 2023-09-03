@@ -151,14 +151,14 @@ export QUARKUS_MODE=native
 
 Agora inicie o Docker Compose conforme descrito acima.
 
-## Running locally
+## Executando localmente
 
-For development purposes it can be handy to run the _producer_ and _aggregator_ applications
-directly on your local machine instead of via Docker.
-For that purpose, a separate Docker Compose file is provided which just starts Apache Kafka and ZooKeeper, _docker-compose-local.yaml_
-configured to be accessible from your host system.
-Open this file an editor and change the value of the `KAFKA_ADVERTISED_LISTENERS` variable so it contains your host machine's name or ip address.
-Then run:
+Para fins de desenvolvimento, pode ser útil executar os aplicativos _produtor_ e _agregador_
+diretamente na sua máquina local em vez de via Docker.
+Para esse propósito, é fornecido um arquivo Docker Compose separado que apenas inicia o Apache Kafka e o ZooKeeper, _docker-compose-local.yaml_
+configurado para ser acessível a partir do seu sistema host.
+Abra este arquivo em um editor e altere o valor da variável `KAFKA_ADVERTISED_LISTENERS` para que contenha o nome ou endereço IP da sua máquina host.
+Então corra:
 
 ```bash
 docker-compose -f docker-compose-local.yaml up
