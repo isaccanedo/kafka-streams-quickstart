@@ -143,7 +143,7 @@ first run the Maven builds using the `native` profile:
 mvn clean install -Pnative -Dnative-image.container-runtime=docker
 ```
 
-Then create an environment variable named `QUARKUS_MODE` and with value set to "native":
+Em seguida, crie uma variável de ambiente chamada `QUARKUS_MODE` e com valor definido como "nativo"
 
 ```bash
 export QUARKUS_MODE=native
