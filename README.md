@@ -168,5 +168,5 @@ mvn quarkus:dev -f producer/pom.xml
 mvn quarkus:dev -Dquarkus.http.port=8081 -f aggregator/pom.xml
 ```
 
-Any changes done to the _aggregator_ application will be picked up instantly,
-and a reload of the stream processing application will be triggered upon the next Kafka message to be processed.
+Quaisquer alterações feitas no aplicativo _agregador_ serão detectadas instantaneamente,
+e uma recarga do aplicativo de processamento de fluxo será acionada na próxima mensagem Kafka a ser processada.
