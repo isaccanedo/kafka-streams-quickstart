@@ -136,8 +136,8 @@ curl -L --insecure https://aggregator:8443/weather-stations/data/2
 
 ## Executando em nativo
 
-To run the _producer_ and _aggregator_ applications as native binaries via GraalVM,
-first run the Maven builds using the `native` profile:
+Para executar os aplicativos _produtor_ e _agregador_ como binários nativos via GraalVM,
+primeiro execute as compilações do Maven usando o perfil `nativo`:
 
 ```bash
 mvn clean install -Pnative -Dnative-image.container-runtime=docker
