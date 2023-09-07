@@ -128,7 +128,7 @@ Caso o HTTP esteja desativado por meio de:
 quarkus.http.insecure-requests=disabled
 ```
 
-The endpoint URL becomes:
+O URL do terminal se torna:
 
 ```bash
 curl -L --insecure https://aggregator:8443/weather-stations/data/2
