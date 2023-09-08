@@ -3,7 +3,7 @@ Início rápido do Quarkus Kafka Streams
 
 Este projeto ilustra como você pode criar aplicativos [Apache Kafka Streams](https://kafka.apache.org/documentation/streams) usando o Quarkus.
 
-## Anatomia
+## Anatomia da Aplicação
 
 Este início rápido é composto das seguintes partes:
 
